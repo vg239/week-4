@@ -1,0 +1,31 @@
+{
+  "name": "week-4",
+  "version": "1.0.0",
+  "description": "In this week's assignment, we will work on building a simple NFT contract, setting up Hardhat tasks, and creating test cases to ensure proper functionality. The tasks involve deploying, minting, and interacting with an NFT smart contract, which we'll build using OpenZeppelin and Hardhat.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^5.1.0",
+    "@types/chai": "^5.0.0",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.7.9",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.5",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

@@ -1,7 +1,10 @@
-export function env(key: string): string {
+import * as dotenv from 'dotenv';
+dotenv.config();
+
+export function getEnvVar(key: string): string {
     const value = process.env[key];
-    if (value === undefined) {
-      throw `${key} is undefined`;
+    if (!value) {
+        throw new Error(`Environment variable ${key} is not set`);
     }
     return value;
-  }  
+}
